@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.text-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.clock {
+  margin-top: 25px;
+}
+
+.duration {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1e293b;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  background-color: steelblue;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+}
